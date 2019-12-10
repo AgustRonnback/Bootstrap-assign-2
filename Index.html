@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+</head>
+<style>
+    body {
+        padding-bottom: 125px;
+    }
+</style>
+
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-end sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-auto" href="#">Home</a>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav text-right">
+                <li class="nav-item active mr-4">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item active mr-4">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item active mr-4">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item active mr-4">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+
+                <button class="btn btn-success mr-1 dropdown-toggle" data-toggle="dropdown" data-target="#myLogon">Sign
+                    in</button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"></button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4 border shadow-sm bg-light dropdown-menu dropdown-menu-right bg-dark text-light"
+                            data-toggle="dropdown" style="margin-top:2%;padding:10px;">
+                            <div class="form-group">
+                                <label>Enter email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                    autocomplete="off" name="">
+                            </div>
+                            <form>
+                                <div class="form-group">
+                                    <label>Enter password:</label>
+                                    <input type="password" class="form-control" id="pass" placeholder="Enter password"
+                                        autocomplete="off" name="">
+                                    <span id="passMsg"></span>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-sm" data-target="#signup"
+                                        data-toggle="modal">Signup</button>
+                                    <button class="btn btn-primary btn-sm" type="sumbit">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!--Login form-->
+        <!-- <button class="btn btn-success mr-1 dropdown-toggle" data-toggle="dropdown" data-target="#myLogon">Sign
+                    in</button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span></button>
+                <div class="dropdown-menu dropdown-menu-right bg-dark">
+                    <form>
+                        <div class="form-group text-light" aria-labelledby="navbar-login">
+                            <label for="inputUsername">Email</label>
+                            <input type="Username" class="form-control" placeholder="Enter email adress" id="email">
+                            <span id="emailMsg"></span>
+                        </div>
+                        <div class="form-group text-light">
+                            <label for="inputPassword">Password</label>
+                            <input class="form-control" type="password" id="inputPassword" placeholder="Password">
+                        </div>
+                        <button class="btn btn-primary btn-block mb-0" type="sumbit">Submit</button>
+                    </form>
+                </div>
+        </div> -->
+    </nav>
+
+
+    <!--JUMBOTRON-->
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <div class="jumbotron mt-5">
+                    <h1 class="display-4 text-center">Home</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis ipsum
+                        eveniet dolores dicta perspiciatis ea labore consequuntur laboriosam alias nostrum illo
+                        necessitatibus voluptas, veritatis illum eligendi neque maiores autem.</p>
+                    <hr>
+                    <div class="text-center">
+                        <a href="/gallery.html" class="btn btn-info">See more!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Cards-->
+        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <div class="row">
+                <div class="col-md-4 mb-2">
+                    <div class="card">
+                        <img class="card-img-top" src="https://picsum.photos/200">
+                        <div class="card-body">
+                            <h5 class="card-title">Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi, iste
+                                assumenda quia inventore explicabo. Quaerat placeat perferendis quibusdam accusantium,
+                                numquam necessitatibus eos? Accusamus amet natus consequuntur deleniti modi tempora.
+                            </p>
+                            <hr>
+                            <a class="btn btn-info ">hejgrabb</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://picsum.photos/200">
+                        <div class="card-body">
+                            <h5 class="card-title">Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi, iste
+                                assumenda quia inventore explicabo. Quaerat placeat perferendis quibusdam accusantium,
+                                numquam necessitatibus eos? Accusamus amet natus consequuntur deleniti modi tempora.
+                                <hr>
+                            </p>
+                            <a class="btn btn-info ">hejgrabb</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card">
+                        <img class="card-img-top" src="https://picsum.photos/200">
+                        <div class="card-body">
+                            <h5 class="card-title">Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi, iste
+                                assumenda quia inventore explicabo. Quaerat placeat perferendis quibusdam accusantium,
+                                numquam necessitatibus eos? Accusamus amet natus consequuntur deleniti modi tempora.
+                                <hr>
+                            </p>
+                            <a class="btn btn-info ">hejgrabb</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="signup" aria-labelledby="signupModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <div class="jumbotron mt-5">
+                    <h1 class="display-4 text-center">About</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis ipsum
+                        eveniet dolores dicta perspiciatis ea labore consequuntur laboriosam alias nostrum illo
+                        necessitatibus voluptas, veritatis illum eligendi neque maiores autem.</p>
+                    <hr>
+                    <div class="text-center">
+                        <a href="/gallery.html" class="btn btn-info">See more!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer font-small blue pt-4 bg-dark fixed-bottom">
+
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3">
+
+                        <!-- Content -->
+                        <h5 class="text-uppercase text-light">Footer Content</h5>
+                        <p class="text-light">mby text</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+
+                        <!-- Links -->
+                        <h5 class="text-uppercase text-light">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3">
+
+                        <!-- Links -->
+                        <h5 class="text-uppercase text-light">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+        </footer>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#btn").hide();
+                $("#email").keyup(function () {
+                    if (validateEmail()) {
+                        $("#email").css("border", "2px solid green");
+                        $("#emailMsg").html("<p class='text-success'>Validated</p>");
+                    } else {
+                        $("#email").css("border", "2px solid red");
+                        $("#emailMsg").html("<p class='text-danger'>Un-validated</p>");
+                    }
+                    buttonState();
+                });
+                $("#pass").keyup(function () {
+                    if (validatePassword()) {
+                        $("#pass").css("border", "2px solid green");
+                        $("#passMsg").html("<p class='text-success'>Password validated</p>");
+                    } else {
+
+                        $("#pass").css("border", "2px solid red");
+                        $("#passMsg").html("<p class='text-danger'>Password not valid</p>");
+                    }
+                    buttonState();
+                });
+            });
+            function buttonState() {
+                if (validateEmail() && validatePassword()) {
+                    $("#btn").show();
+                } else {
+                    $("#btn").hide();
+                }
+            }
+            function validateEmail() {
+                var email = $("#email").val();
+                var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
+                if (reg.test(email)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            function validatePassword() {
+                var pass = $("#pass").val();
+                if (pass.length > 7) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        </script>
+        <!-- <script type="text/javascript">
+        $(document).ready(function () {
+            $("#email").keyup(function () {
+                if (validateEmail()) {
+                    // $("#email").css("border", "10px solid green");
+                    // $("#emailMsg").html("<p class='text-success'>Validated</p>");
+                } else {
+                    // $("#email").css("border", "2px solid red");
+                }
+                $("input#password").keyup(function () {
+                    if (validatePassword()) {
+                        // $("#email").css("border", "10px solid green");
+                        // $("#emailMsg").html("<p class='text-success'>Validated</p>");
+                    } else {
+                        // $("#email").css("border", "2px solid red");
+                    }
+                });
+            });
+    
+            function validateEmail() {
+                var email = $("#email").val();
+                if (email.includes("@")) {
+                    // och includes .
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+    
+            function validatePassword() {
+                var password = $("#password").val();
+                if (password.length < 1000) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        });
+    
+    </script> -->
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
